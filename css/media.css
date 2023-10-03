@@ -17,30 +17,42 @@
 }
 
 /*Header*/
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767.98px) {
+  .menu {
+    display: none;
+  }
+
+  .contact-details {
+    display: none;
+  }
+
+  .logo {
+    padding: 16px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .header-nav {
+  .header-menu-btn {
     display: none;
+  }
+
+  .address-list {
+    display: block;
   }
 }
 
 @media screen and (min-width: 1158px) {
+  .address-list {
+    display: flex;
+  }
 }
 /*END Header*/
 
 /*Page title*/
-@media screen and (min-width: 320px) {
-}
-
 @media screen and (min-width: 768px) {
-  .first-page-section {
-  }
-}
-
-@media screen and (min-width: 1158px) {
-  .first-page-section {
+  .page-title {
+    font-size: 56px;
+    margin-bottom: 48px;
   }
 }
 /*END Page title*/
@@ -123,12 +135,25 @@
 /*END Our team*/
 
 /*Our Portfolio*/
-@media screen and (min-width: 320px) {
-}
-
 @media screen and (min-width: 768px) {
+  .our-portfolio-list {
+    gap: 72px 24px;
+  }
+
+  .our-portfolio-elements {
+    flex-basis: calc((100% - 24px) / 2);
+    width: 356px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
+  .our-portfolio-list {
+    gap: 48px 24px;
+  }
+
+  .our-portfolio-elements {
+    flex-basis: calc((100% - 48px) / 3);
+    width: 360px;
+  }
 }
 /*END Our Portfolio*/
