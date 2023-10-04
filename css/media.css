@@ -49,6 +49,61 @@
 /*END Header*/
 
 /*Page title*/
+
+/*background image*/
+@media screen and (min-resolution: 192dpi) {
+  .first-page-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/back-title_mob@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .first-page-section {
+    max-width: 768px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/back-title_tab.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .first-page-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/back-title_tab@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .first-page-section {
+    max-width: 1158px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/back-img_desk.jpg);
+  }
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+  .first-page-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/back-title_desk@2x.jpg);
+  }
+}
+/*background image*/
+
 @media screen and (min-width: 768px) {
   .page-title {
     font-size: 56px;
