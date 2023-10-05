@@ -458,16 +458,19 @@ img {
 
 .page-footer .container {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
 }
 
 .logo-p-footer {
   margin-right: 120px;
+  margin-bottom: 72px;
 }
 
 .page-footer .logo {
   display: inline-block;
   margin-bottom: 16px;
+  justify-content: center;
 }
 
 .logo-studio-word-footer {
@@ -491,11 +494,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  /*margin-bottom: 72px;*/
 }
 
 .social-media-list {
   display: flex;
   gap: 16px;
+  margin-bottom: 72px;
 }
 
 .icons-social-media {
@@ -530,7 +535,9 @@ img {
 
 .footer-form {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
+  justify-content: center;
 }
 
 .footer-input {
