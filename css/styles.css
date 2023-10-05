@@ -169,7 +169,9 @@ img {
 /* First page */
 .first-page-section {
   background-color: #2e2f42;
-  padding: 188px 0;
+  /*padding: 188px 0;*/
+  padding-top: 72px;
+  padding-bottom: 72px;
 
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -190,7 +192,7 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  max-width: 496px;
+  max-width: 200px;
   margin-left: auto;
   margin-right: auto;
   /*margin-bottom: 48px;*/
@@ -266,6 +268,7 @@ img {
 .studio-list-elements {
   /*width: calc((100% - 72px) / 4);*/
   flex-basis: 100%;
+  padding-bottom: 8px;
 }
 
 .sub-title {
@@ -330,17 +333,16 @@ img {
 
 .employees-info {
   padding: 32px 0;
+  text-align: center;
 }
 
 .employees-info .sub-title {
-  text-align: center;
   margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
 }
 
 .employees-info .text {
-  text-align: center;
   font-size: 16px;
   font-weight: 400;
 }
@@ -463,14 +465,12 @@ img {
 }
 
 .logo-p-footer {
-  margin-right: 120px;
+  /*margin-right: 120px;*/
   margin-bottom: 72px;
 }
 
-.page-footer .logo {
+.logo-p-footer .logo {
   display: inline-block;
-  margin-bottom: 16px;
-  justify-content: center;
 }
 
 .logo-studio-word-footer {
@@ -485,6 +485,7 @@ img {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+  margin-top: 17px;
 }
 
 .footer-subtitle {
@@ -497,10 +498,14 @@ img {
   /*margin-bottom: 72px;*/
 }
 
+.footer-social-media {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .social-media-list {
   display: flex;
   gap: 16px;
-  margin-bottom: 72px;
 }
 
 .icons-social-media {
@@ -527,10 +532,6 @@ img {
 
 .social-media-icon-img {
   fill: #f4f4fd;
-}
-
-.footer-subscribe {
-  margin-left: 80px;
 }
 
 .footer-form {
@@ -616,7 +617,8 @@ img {
 
 .modal {
   position: absolute;
-  width: 408px;
+  /*width: 408px;*/
+  width: 288px;
   min-height: 584px;
   top: 50%;
   left: 50%;
@@ -873,6 +875,10 @@ img {
 
 .mobile-contacts-item:not(:last-child) {
   margin-bottom: 24px;
+}
+
+.mobile-contacts-link.email {
+  color: #434455;
 }
 
 .mobile-socials-link {
